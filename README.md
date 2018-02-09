@@ -1,2 +1,2 @@
 # icodetheweb-com.github.io
-Templates
+This repository consists of some projects that I've built.
