@@ -1,0 +1,348 @@
+body {
+	background-color: #cccccc;
+}
+h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px; 
+  }
+h3.section-subheading {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  }
+#mainNav {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+#mainNav .navbar-toggler {
+    border: 0;
+    color: white; 
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+#mainNav .navbar-brand {
+    color: #fff; 
+}
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: rgba(255, 255, 255, 0.7); 
+      background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: 0.75em 0.5em;
+    color: #fff; 
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(255, 255, 255, 0.7); 
+}
+@media (min-width: 768px) {
+  #mainNav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent; 
+ }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+  }
+   #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; 
+  }
+   #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); 
+  }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; 
+    } 
+}
+.header {
+  background-image: url(../img/home-bg.jpg); 
+  min-height: 380px;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.header .intro-text {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.header .intro-text .intro-lead-in {
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Comic Sans Ms; 
+ }
+
+@media (min-width: 768px) {
+  .header .intro-text {
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+  .header .intro-text .intro-lead-in {
+    	font-size: 60px;
+    	line-height: 40px; 
+ }
+}
+.main {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 3;
+}
+.main-raised {
+  margin: -60px 30px 0px;
+  border-radius: 6px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.profile {
+  text-align: center;
+  margin: 0 auto;
+}
+.profile img {
+  max-width: 160px;
+  margin-top: -80px;
+}
+.main .description {
+  margin: 30px auto 0;
+  max-width: 600px;
+}
+.img-raised {
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.name .title {
+	font-family: Helvetica Neue;
+}
+#portfolio .portfolio-item {
+   right: 0;
+   margin: 0 0 15px; 
+}
+#portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    opacity: 0;
+    background: rgba(240, 95, 64, 0.9); 
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1; 
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: white; 
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px; 
+}
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff; 
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; 
+}
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+#portfolio * {
+  z-index: 2; 
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px; 
+    }
+}
+.contact {
+  padding: 50px 0;
+  max-width: 700px;
+  margin: 30px auto 0;
+}
+.form-control {
+  height: 36px;
+  padding: 7px 0;
+  font-size: 14px;
+  line-height: 1.42857;
+  margin-bottom: 7px;
+}
+
+.form-group .form-control {
+  border: 0;
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
+  background-size: 0 2px, 100% 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom, center calc(100% - 1px);
+  background-color: transparent;
+  transition: background 0s ease-out;
+  float: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-weight: 400;
+}
+.form-group .form-control:focus {
+  background-image: linear-gradient(#FA1D1D, #FA1D1D), linear-gradient(#FA1D1D, #FA1D1D);
+}
+.form-group textarea {
+  resize: none;
+}
+.form-group {
+  padding-bottom: 7px;
+  margin: 27px 0 0 0;
+  position: relative;
+}
+.form-group label.control-label {
+  font-size: 15px;
+  line-height: 1.07143;
+  color: #AAAAAA;
+  font-weight: 400;
+  margin: 16px 0 0 0;
+}
+.btn.btn-primary {
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+.btn {
+  border: none;
+  border-radius: 3px;
+  padding: 12px 30px;
+  margin: 10px 1px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover {
+  box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+footer {
+  padding: 15px 0;
+}
+ul.social-buttons li a .fa{
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+}
+.fa.fa-facebook {
+    background-color: #3b5998;
+}
+.fa.fa-twitter {
+  background-color: #00aced;
+}
+.fa.fa-linkedin {
+  background-color: #007bb6;
+}
+.fa.fa-google-plus {
+  background-color: #dd4b39;
+}
+.fa.fa-github {
+  background-color: #000;
+}
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+       text-decoration: none;
+}
+ul.social-buttons li a .fa:hover {
+  transform: scale(1.3);
+}
+.portfolio-modal {
+  padding-right: 0px !important; 
+}
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw; 
+}
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    text-align: center; 
+}
+.portfolio-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px; 
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px; 
+}
+.portfolio-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px; 
+}
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent; 
+}
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3; 
+}
+.portfolio-modal .close-modal .lr {
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: #212529; 
+}
+  .portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background-color: #212529; 
+}
