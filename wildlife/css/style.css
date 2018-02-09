@@ -1,0 +1,208 @@
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+#mainNav {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+#mainNav .navbar-toggler {
+    border: 0;
+    color: white; 
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+#mainNav .navbar-brand {
+    color: #fff; 
+}
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      color: rgba(255, 255, 255, 0.7); 
+      background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 0.75em 0.5em;
+    color: #fff; 
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(255, 255, 255, 0.7); 
+}
+@media (min-width: 768px) {
+  #mainNav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent; 
+ }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; 
+  }
+   #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important; 
+  }
+   #mainNav.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); 
+  }
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0; 
+    } 
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/eleph-bg.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px; 
+}
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px; 
+ }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+ }
+  header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+ } 
+}
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent; 
+}
+.btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); 
+  }
+section {
+  padding: 25px 0; 
+}
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: bolder; 
+}
+@media (min-width: 768px) {
+  section {
+    padding: 50px 0; 
+    } 
+}
+.about, .portfolio {
+  padding: 0;
+}
+.about  h2{
+  padding: 75px 0 0;
+  font-size: 3em;
+  font-weight: bolder;
+}
+.about .about-text {
+  padding: 75px 0 0;
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: 500;
+}
+@media (max-width: 1070px) {
+  .about h2 {
+    font-size: 2em;
+  }
+  .about .about-text {
+    padding: 35px 0 0;
+    font-size: 1em;
+  }
+}
+@media (max-width: 767px) {
+  .about h2 {
+    font-size: 3em;
+  }
+  .about .about-text {
+    padding: 60px 0 0;
+    font-size: 1.5em;
+  }
+}
+.img-box {
+  display: block;
+  margin: 0 auto;
+  max-width: 650px;
+}
+.img-box:hover {
+  opacity: 0.8;
+}
+.img-box:focus {
+  outline: none;
+}
+.contact-text {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+}
+.contact .contact-info {
+  font-size: 18px;
+  padding: 5px;
+  font-family: Tahoma;
+  font-weight: 600;
+}
+footer {
+  padding: 15px 0;
+  font-size: 16px;
+  color: white;
+}
+footer a, footer a:hover {
+  color: white;
+}
