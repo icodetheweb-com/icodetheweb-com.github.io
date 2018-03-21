@@ -1,0 +1,17 @@
+.balance, .stake {
+	border: 2px solid red;
+	padding: 5px 10px;
+}
+ .main .btn  {
+	cursor: pointer; 
+}
+.stakeBox {
+	display: none;
+}
+.images {
+	margin: 0 10rem auto;
+}
+
+#okBtn {
+	display: none;
+}

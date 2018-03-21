@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 bg-light main">
+				<div class="images p-3">
+					<img src="canada.gif" class="img-fluid rounded">
+					<img src="jamaica.gif" class="img-fluid rounded">
+					<img src="mexico.gif" class="img-fluid rounded">
+				</div>
+				<button class="btn btn-lg btn-danger btn-block" id="spinBtn">Spin</button>
+				<h1 class="p-2" id="balanceMsg"></h1>
+				<h1 class="text-center" id="outcomeMsg"></h1>
+				<button class="btn btn-warning btn-block" id="okBtn">OK</button>		
+			</div>
+			<div class="col-lg-4">
+				<div class="balance mt-5 rounded">
+					<h2>Balance</h2>
+					<p id="balance"></p>
+				</div>
+				<div class="form-group mt-3">
+					<label class="form-control-label"><h3>Deposit</h3></label>
+					<input type="number" name="" class="form-control" min="5" id="deposit">
+				</div>
+				<button class="btn btn-primary" id="depositBtn">Deposit</button>
+				<p class="small mt-2" id="depositMessage"></p>
+				
+				<div class="stakeBox">
+					<div class="form-group mt-3">
+						<label class="form-control-label"><h3>Stake</h3></label>
+						<input type="number" name="" class="form-control" min="5" id="stake">
+					</div>
+					<div class="stake mt-5 rounded">
+						<h2>Current Stake</h2>
+						<p id="stakeValBox">$0.00</p>
+					</div>
+					<button class="btn btn-primary mt-3" id="stakeBtn">Stake</button>
+					<p class="small text-danger mt-2" id="stakeMessage"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
